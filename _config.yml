@@ -1,8 +1,8 @@
-theme: minima
-title: el cajón de los mandriles
-author: mocho-funereo
+remote_theme: chesterhow/tale
 
-minima:
-  skin: classic
-  include_css:
-    - /assets/css/custom.css
+permalink:    /:year-:month-:day/:title
+paginate:     5
+
+plugins:
+  - jekyll-paginate
+  - jekyll-remote-theme
