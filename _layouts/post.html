@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }}</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      max-width: 700px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+      background-color: #fefefe;
+      color: #333;
+    }
+    h1 { color: #222; }
+    a { color: #0056b3; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    nav a { margin-right: 1rem; }
+    footer { margin-top: 3rem; font-size: 0.9em; color: #666; }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="{{ '/' | relative_url }}">← Volver al blog</a>
+  </nav>
+
+  <h1>{{ page.title }}</h1>
+  <article>
+    {{ content }}
+  </article>
+
+  <footer>
+    Publicado con GitHub Pages.
+  </footer>
+</body>
+</html>
