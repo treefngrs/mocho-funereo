@@ -1,7 +1,6 @@
 ---
 title: Into the Unknowkn
 layout: post
-date: 2025-05-24
 ---
 
 # No sé cómo se utiliza este formato.
