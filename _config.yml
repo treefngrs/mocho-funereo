@@ -1,3 +1,8 @@
 theme: minima
 title: el cajón de los mandriles
 author: mocho-funereo
+
+minima:
+  skin: classic
+  include_css:
+    - /assets/css/custom.css
